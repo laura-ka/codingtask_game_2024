@@ -932,8 +932,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
+  near clip plane: 0.1
+  far clip plane: 800
   field of view: 60
   orthographic: 1
   orthographic size: 5
@@ -980,9 +980,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1894911181}
-  smoothTime: 0.25
-  cameraYOffset: 1.5
-  triggerPositionOffset: 0.5
+  smoothTime: 0.3
+  cameraYOffset: 0.5
+  triggerPositionOffset: 0.1
 --- !u!1 &257046705
 GameObject:
   m_ObjectHideFlags: 0

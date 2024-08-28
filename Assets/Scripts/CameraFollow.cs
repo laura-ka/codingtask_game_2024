@@ -5,12 +5,12 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public Transform target;               // Reference to the target (ball) that the camera will follow
-    public float smoothTime = 0.25f;       // Time to smooth camera movement
+    public float smoothTime = 0.35f;       // Time to smooth camera movement
     public float cameraYOffset = 1f;      // Vertical offset distance to maintain from the ball
-    public float triggerPositionOffset = 0.5f; // The Y-offset for when the camera should start following the ball
+    public float triggerPositionOffset = 0.1f; // The Y-offset for when the camera should start following the ball
     private Vector3 velocity = Vector3.zero;  // Velocity reference used by SmoothDamp to smoothly move the camera
 
-    void Update()
+    void FixedUpdate()
     {
         if (target != null)
         {

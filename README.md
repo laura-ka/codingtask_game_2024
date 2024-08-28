@@ -1,5 +1,8 @@
 # Color Switch Clone Game
 Coding task game made with Unity.
+
+When opening the project in Unity, navigate to the 'Scenes' folder and double-click on 'GameScene' to open it.
+
 <h2>Demo</h2>
 
 Link to the game: https://lariaw.itch.io/coding-task-game
